@@ -1,22 +1,30 @@
-@import "./base/normalize";
-@import "./base/reset";
+@import './base/normalize';
+@import './base/reset';
 
 $small-device: 900px;
 
-@mixin flex($flexDirection: row, $alignItems: flex-start, $justifyContent: flex-start) {
-    display: flex;
-    flex-direction: $flexDirection;
-    align-items: $alignItems;
-    justify-content: $justifyContent;
+@mixin flex(
+  $flexDirection: row,
+  $alignItems: flex-start,
+  $justifyContent: flex-start
+) {
+  display: flex;
+  flex-direction: $flexDirection;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
 }
 
 .app {
-    @include flex($flexDirection: column, $alignItems: center, $justifyContent: flex-start);
-    width: 900px;
-    min-height: 100vh;
-    margin: 0 auto;
+  @include flex(
+    $flexDirection: column,
+    $alignItems: center,
+    $justifyContent: flex-start
+  );
+  width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
 
-    @media screen and (max-width: $small-device) {
-        width: 100%;
-    }
+  @media screen and (max-width: $small-device) {
+    width: 100%;
+  }
 }

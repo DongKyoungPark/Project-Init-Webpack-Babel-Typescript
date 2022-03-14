@@ -1,0 +1,26 @@
+@import '../../styles/globalStyles.scss';
+
+.app__main {
+  @include flex(
+    $flexDirection: column,
+    $alignItems: center,
+    $justifyContent: center
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 1rem 2rem;
+  background-color: #436cff;
+
+  .app__main-text {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.app__label {
+  color: #436cff;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
