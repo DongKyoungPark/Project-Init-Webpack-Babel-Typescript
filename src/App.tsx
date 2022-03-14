@@ -1,6 +1,9 @@
-import './styles.css';
-
-export const App = () => {
-  const name = 'test';
-  return <h1>Hello World!</h1>;
+const App = () => {
+  return (
+    <div className='app'>
+      <h1>Hello World!</h1>
+    </div>
+  );
 };
+
+export default App;
