@@ -7,7 +7,7 @@
   "settings": {
     "react": {
       "version": "detect"
-    },
+    }
   },
   "extends": [
     "plugin:react/recommended",
@@ -28,6 +28,11 @@
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/display-name":"off",
+    "jsx-a11y/no-static-element-interactions":"off",
+    "jsx-a11y/no-noninteractive-element-interactions" :"off",
+    "jsx-a11y/click-events-have-key-events":"off",
+    "jsx-a11y/anchor-is-valid":"off"
   }
 }

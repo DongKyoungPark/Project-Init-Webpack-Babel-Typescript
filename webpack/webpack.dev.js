@@ -15,4 +15,7 @@ module.exports = {
       'process.env.name': JSON.stringify('dev-server'),
     }),
   ],
+  output: {
+    publicPath: '/',
+  },
 };

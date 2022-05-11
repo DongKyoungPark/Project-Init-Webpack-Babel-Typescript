@@ -1,6 +1,8 @@
+import { memo } from 'react';
+
 import './Main.scss';
 
-const Main = () => {
+const Main = memo((): JSX.Element => {
   return (
     <div className='app__main'>
       <div className='app__label'>
@@ -10,6 +12,6 @@ const Main = () => {
       <h2 className='app__main-text'>Platform</h2>
     </div>
   );
-};
+});
 
 export default Main;

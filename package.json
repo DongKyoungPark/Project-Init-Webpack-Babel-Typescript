@@ -1,5 +1,5 @@
 {
-  "name": "Project-Init",
+  "name": "Flitto",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,11 +11,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dong Kyoung Park",
   "license": "ISC",
   "dependencies": {
+    "@types/react-router": "^5.1.18",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^0.26.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
